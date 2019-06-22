@@ -11,6 +11,7 @@ public:
     ~QueenGrid(){}
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
     QRectF boundingRect() const;
+private:
     int grid_width;
     QColor grid_color;
     bool chosen;
